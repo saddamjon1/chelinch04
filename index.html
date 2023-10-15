@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ *{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+ 
+
+}
+.container{
+    max-width: 1440px;
+  background-color:rgba(227, 227, 220, 0.808);
+  height: 1200px;  
+}
+
+.section{
+    width: 450px;
+    height: 700px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    background-image: none;
+
+}
+img :hover{
+  transform: scale(1.1);
+  color: #060d93;
+}
+img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .order{
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    }
+    .order h1{
+      margin-top: 15px;
+    }
+    .order p{
+      margin-top: 15px;
+      font-size: 16px;
+      color: #a0a9b8;
+    }
+    .Annual_Plan{
+      width: 350px;
+      height: 100px;
+      background-color: #f8f9fe;
+      border-radius: 15px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    .plan h1{
+      font-size: 16px;
+      color: #1e2e4f;
+    }
+    .plan p{
+      font-size: 16px;
+      color: #a0a9b8;
+    }
+    .plan{
+      margin-right: 90px;
+    }
+    .change p{
+      font-weight: bolder;
+      font-size: 14px;
+    }
+    .change{
+      cursor: pointer;
+    }
+    .proceed_to_payment{
+      text-align: center;
+    }
+    .proceed_to_payment button{
+      width: 350px;
+      height: 50px;
+      margin-top: 30px;
+      background-color: #362bdf;
+      border-radius: 13px;
+      border: none;
+      color: white;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+    .proceed_to_payment button:hover{
+      transform: scale(0.9);
+  color: #060d93;
+  background-color: white;
+    }
+    .cancel{
+      text-align: center;
+      margin-top: 50px;
+      cursor: pointer;
+      color: #2d394f;
+      font-weight: bolder;
+    }
+    .cancel:hover{
+      transform: scale(1.1);
+  color: #060d93;
+    }
+    .attribution{
+      text-align: center;
+      margin-top: 200px;
+    }
+    .con1{
+      margin-top: 0px;
+    }
+    p:hover{
+      transform: scale(1.1);
+  color: #060d93;
+    }
+   h1:hover{
+    transform: scale(1.1);
+  color: #060d93;
+   }
+   img:hover{
+    transform: scale(0.9);
+  color: #060d93;
+   }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="con1">
+    <div class="section">
+     <img src="images/illustration-hero.svg" alt="">
+     <div class="order">
+      <h1>Order Summary</h1>
+  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</p>
+     </div>
+  
+  <div class="Annual_Plan">
+    <div class="music">
+      <img src="images/icon-music.svg" alt="">
+    </div>
+    <div class="plan">
+       <h1>Annual Plan</h1>
+    <p>$59.99/year</p>
+    </div>
+    <div class="change">
+      <a href="#"><p>Change</p></a>
+    </div>
+  </div>
+
+  <div class="proceed_to_payment">
+    <button><p>Proceed to Payment</p></button>
+  </div>
+<div class="cancel">
+  <p>Cancel Order</p>
+</div>
+  
+  
+</div> 
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">saddamjon007</a>.
+  </div>
+  </div>
+  </div>
+</head>
+<body>
